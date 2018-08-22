@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Questao04 {
+
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        System.out.print("Digite a quantidade de posições do vetor: ");
+        int i = entrada.nextInt();
+        int vetor[] = new int[i];
+        System.out.println("Deseja ordenar o vetor em ordem "
+                + "crescente ou decrescente? (Crescente/Decrescente)");
+        String escolha = entrada.next();
+
+        System.out.println("Digite os valores do vetor: ");
+        for (int j = 0; j < vetor.length; j++) {
+            vetor[j] = entrada.nextInt();
+        // Parei aqui
+        }
+    }
+}
